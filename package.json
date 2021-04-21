@@ -1,0 +1,23 @@
+{
+  "name": "krakenotel",
+  "version": "0.0.1",
+  "description": "Barebone kraken application with otel integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^0.18",
+    "@opentelemetry/exporter-zipkin": "^0.18.2",
+    "@opentelemetry/instrumentation": "^0.18.2",
+    "@opentelemetry/instrumentation-express": "^0.15.0",
+    "@opentelemetry/instrumentation-http": "^0.18.2",
+    "@opentelemetry/node": "^0.18.2",
+    "@opentelemetry/propagator-b3": "^0.18.2",
+    "@opentelemetry/tracing": "^0.18.2",
+    "express": "^4.16.3",
+    "kraken-js": "^2.2.0"
+  }
+}
